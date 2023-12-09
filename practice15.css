@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(53,54,56,0.7),rgba(53,54,56,0.7)),url(images/port2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-text{
+    margin-top: -50px;
+    text-align: center;
+    color: #adadad;
+}
+
+.img-text h1{
+    font-size: 60px;
+}
+
+.img-text p{
+    font-size: 23px;
+}
+
+/* image gallery  ----------------------------------------------------------------------*/
+
+
+.short-header{
+    position: absolute;
+    margin-top: -4000px;
+    margin-left: 1%;
+    font-size: 50px;
+    color: rgba(53,54,56);
+}
+
+.img-gal{
+    width: 100%;
+    height: 450vh;
+    background-color: #adadad;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.row1{
+    width: 1350px;
+    height: 3000px;
+    position: relative;
+    display: flex;
+}
+
+.row1-pics{
+    margin: 20px;
+    width: 800px;
+    height: 450px;
+    margin-top: -350px;
+
+    box-shadow: -1px 0 10px #000000;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+}
+
+img{
+    width: 300px;
+    height: 450px;
+    display: flex;
+}
+
+.content h2{
+    text-align: center;
+    color: rgba(53,54,56);
+}
+
+.bname, .seasoning, .notes{
+    font-size: 19px;
+    color: #06051f;
+    text-decoration: underline;
+    text-decoration-color: #06051f;
+}
+
+.short-note{
+    font-size: 18px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* row 2 */
+
+.row2{
+    width: 1350px;
+    margin-top: -1200px;
+    margin-left: -1355px;
+    display: flex;
+}
+
+.row2-pics{
+    margin: 20px;
+    width: 800px;
+    height: 450px;
+    margin-top: -350px;
+
+    box-shadow: -1px 0 10px #000000;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+}
+
+/* -------------------------------------------------------------------------------------  */
+/* row 3 */
+
+.row3{
+    width: 1350px;
+    margin-top: 500px;
+    margin-left: -1355px;
+    display: flex;
+}
+
+.row3-pics{
+    margin: 20px;
+    width: 800px;
+    height: 450px;
+    margin-top: -350px;
+
+    box-shadow: -1px 0 10px #000000;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+}
+
+/* ---------------------------------------------------------------------------------------  */
+/* row4 */
+
+.row4{
+    width: 1350px;
+    margin-top: 2200px;
+    margin-left: -1355px;
+    display: flex;
+}
+
+.row4-pics{
+    margin: 20px;
+    width: 800px;
+    height: 450px;
+    margin-top: -350px;
+
+    box-shadow: -1px 0 10px #000000;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+}
+
+/* ----------------------------------------------------------------------  */
+
+.footer{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(53,54,56);
+}
+
+.cu-heading{
+    color: #adadad;
+    font-size: 30px;
+    padding: 30px 50px;
+}
+
+.cu-p{
+    color: #adadad;
+    margin-left: 50px;
+}
+
+.cu-btn{
+    font-size: 25px;
+    color: #adadad;
+    text-decoration: none;
+    padding: 20px 50px;
+}
+
+.appstore{
+    color: #adadad;
+    font-size: 65px;
+    text-align: end;
+    margin-top: -200px;
+    margin-right: 50px;
+}
+
+.apple{
+    font-size: 75px;
+}
+
+.icon{
+    color: #adadad;
+    font-size: 35px;
+    margin-left: 850px;
+    margin-top: -150px;
+    letter-spacing: 50px;
+}
+
+.copyright{
+    font-size: 35px;
+    color: #adadad;
+    margin-top: 50px;
+    margin-left: 850px;
+}

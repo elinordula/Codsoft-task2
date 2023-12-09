@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* .header{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(53,54,56,0.7),rgba(53,54,56,0.7)),url(images/port2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-text{
+    text-align: center;
+    color: #adadad;
+}
+
+.img-text h1{
+    font-size: 40px;
+}
+
+.img-text p{
+    font-size: 19px;
+} */
+
+
+
+
+.header{
+    background-image: linear-gradient(rgba(53,54,56,0.7),rgba(53,54,56,0.7)),url(images/port2.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 120px;
+    margin-right: 150px;
+    font-size: 18px;
+}
+
+.main-nav li{
+    display: inline-block;
+}
+
+.main-nav li a{
+    /* margin-top: 500px; */
+    color: #adadad;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: sans-serif;
+}
+
+
+.logo img{
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 130px;
+    height: auto;
+    float: left;
+}
+
+.home-pg1 h1{
+    font-size: 80px;
+    color: #adadad;
+    padding: 250px;
+    margin-left: -50px;
+}
+
+.home-pg1 p{
+    color: #adadad;
+    font-size: 25px;
+    padding: 300px;
+    margin-top: -550px;
+    margin-left: -100px;
+    
+}
+
+/* wiab  */
+
+.wiab{
+    width: 100%;
+    height: 110vh;
+    background-color: #fff;
+}
+
+.pic img{
+    width: 400px;
+    height: 550px;
+}
+
+#left{
+    margin-top: 120px;
+    /* margin-bottom: 100px; */
+    position: relative;
+    margin-left: 15%;
+}
+
+.heading{
+    text-align: left;
+    /* margin-top: 85px; */
+    margin-top: -500px;
+    margin-left: 700px;
+}
+
+.heading h4{
+    font-size: 12px;
+    color: rgb(53,54,56);
+}
+
+.heading hr{
+    text-align: center;
+    width: 20%;
+    border: 1.3px solid;
+    color: rgb(53,54,56);
+}
+
+.heading h1{
+    font-size: 35px;
+    color: rgb(53,54,56);
+}
+
+.heading p{
+    color: rgb(53,54,56);
+}
+
+
+.quote{
+    /* font-family: italic; */
+    font-weight: bold;
+    color: rgb(53,54,56);
+}
+
+/* wwo  */
+
+.wwo{
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(53,54,56);
+}
+
+.feature{
+    padding: 70px;
+    text-align: center;
+}
+
+.feature hr{
+    text-align: center;
+    margin-left: 655px;
+    width: 5%;
+    border: 1.3px solid;
+    color: #adadad;
+}
+
+.feature h4{
+    font-size: 12px;
+    color: #adadad;
+}
+
+.feature h1{
+    font-size: 50px;
+    color: #adadad;
+}
+
+.split1{
+    /* text-align: center; */
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.icon{
+    color: #adadad;
+    font-size: 25px;
+}
+
+.split1 h3{
+    color: #fff;
+}
+
+.split1 p{
+    color: #adadad;
+}
+
+.split2{
+    /* text-align: center; */
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.icon{
+    color: #adadad;
+    font-size: 25px;
+}
+
+.split2 h3{
+    color: #fff;
+}
+
+.split2 p{
+    color: #adadad;
+}
+
+.split3{
+    /* text-align: center; */
+    margin-left: 610px;
+    margin-top: -380px;
+}
+
+.icon{
+    color: #adadad;
+    font-size: 25px;
+}
+
+.split3 h3{
+    color: #fff;
+}
+
+.split3 p{
+    color: #adadad;
+}
+
+.split4{
+    margin-left: 610px;
+    margin-top: 25px;
+}
+
+.icon{
+    color: #adadad;
+    font-size: 25px;
+}
+
+.split4 h3{
+    color: #fff;
+}
+
+.split4 p{
+    color: #adadad;
+}
+
+.split5{
+    margin-left: 1020px;
+    margin-top: -375px;
+}
+
+.icon{
+    color: #adadad;
+    font-size: 25px;
+}
+
+.split5 h3{
+    color: #fff;
+}
+
+.split5 p{
+    color: #adadad;
+}
+
+.split6{
+    margin-left: 1020px;
+    margin-top: 45px;
+}
+
+.icon{
+    color: #adadad;
+    font-size: 25px;
+}
+
+.split6 h3{
+    color: #fff;
+}
+
+.split6 p{
+    color: #adadad;
+}
+
+/* wpas  */
+
+.wpas{
+    width: 100%;
+    height: 110vh;
+    background-color: #fff;
+}
+
+.testimonials{
+    padding: 80px;
+    text-align: center;
+}
+
+.testimonials hr{
+    text-align: center;
+    margin-left: 610px;
+    width: 10%;
+    border: 1.3px solid;
+    color: rgb(53,54,56);
+}
+
+.testimonials h4{
+    font-size: 12px;
+    color: rgb(53,54,56);
+}
+
+.testimonials h1{
+    font-size: 50px;
+    color: rgb(53,54,56);
+}
+
+.icon-star{
+    font-size: 20px;
+    color: #f2b305;
+}
+
+.people1{
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.people1 h3{
+    font-size: 25px;
+    color: rgb(53,54,56);
+}
+
+.people1 p{
+    font-size: 20px;
+    color: rgb(53,54,56);
+    line-height: 28px;
+}
+
+.people2{
+    margin-top: -235px;
+    margin-left: 600px;
+}
+
+.people2 h3{
+    font-size: 25px;
+    color: rgb(53,54,56);
+}
+
+.people2 p{
+    font-size: 20px;
+    color: rgb(53,54,56);
+    line-height: 28px;
+}
+
+.people3{
+    margin-top: -235px;
+    margin-left: 1050px;
+}
+
+.people3 h3{
+    font-size: 25px;
+    color: rgb(53,54,56);
+}
+
+.people3 p{
+    font-size: 20px;
+    color: rgb(53,54,56);
+    line-height: 28px;
+}
+
+/* box2 */
+
+.box2{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-image: linear-gradient(rgba(53,54,56,0.7),rgba(53,54,56,0.7)),url(images/port2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.time{
+    padding: 90px 50px;
+    background-color: rgb(53,54,56);
+    margin-top: 3%;
+    margin-left: 130px;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 55px;
+    /* float: left; */
+    color: #fff;
+    float: left;
+
+}
+
+.time hr{
+    text-align: center;
+    /* margin-left: 655px; */
+    width: 100%;
+    border: 2px solid;
+    color: #adadad;
+}
+
+.btn {
+    /* float: left; */
+    background-color: #adadad;
+    /* color: #000; */
+    border: solid;
+    color: rgb(53,54,56);
+    font-weight: bold;
+    /* font-family: bold; */
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 50px 150px;
+    cursor: pointer;
+}
+
+.time h2{
+    font-size: 30px;
+}
+
+.dual{
+    padding:80px 50px;
+    background-color: rgb(53,54,56);
+    margin-top: 3%;
+    margin-left: 230px;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 45px;
+    /* float: left; */
+    color: #fff;
+    float: right;
+}
+
+.dual h2{
+    font-size: 30px;
+}
+
+input[type=text], input[type=email]{
+    /* border-radius: 5px solid rgb(53,54,56); */
+    background-color: rgb(53,54,56);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
